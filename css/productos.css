@@ -1,0 +1,33 @@
+
+.col-md-2 {
+  text-align: center;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  border: 1px solid black;
+  border-radius: 7px;
+  margin: 1rem;
+}
+
+.col-md-2:hover{
+  box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.col-md-2 h4{
+  font-size: 15px;
+  margin: 1px;
+}
+
+.col-md-2 h6{
+  font-size: 12px;
+  margin:1px;
+}
+
+.col-md-2 h3{
+ display: none;
+}
+
+.col-md-2 img {
+  margin-top: 1rem;
+  width: 20vh;
+}
+

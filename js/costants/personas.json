@@ -1,0 +1,41 @@
+[
+  {
+    "id": 0,
+    "nombre": "Elizabeth",
+    "apellido": "Herrera",
+    "cargo": "Cargo",
+    "profesion": "Profesion",
+    "imagen": "../img/imgNosotras/draHerrera.png",
+    "instagram": "https://www.instagram.com/eli_herrera_69/",
+    "facebook": "https://www.facebook.com/elizabeth.herrera.399",
+    "twitter": "",
+    "informacion": "Lorem, ipsum dolor sit amet consectetur  elit.",
+    "masInformacion": "Rem corupti  in amet nihil dolorumsimilique molestias laboriosam nostrum."
+  },
+  {
+    "id": 1,
+    "nombre": "Alexia",
+    "apellido": "Ponce de Leon",
+    "cargo": "Cargo",
+    "profesion": "Profesion",
+    "imagen": "../img/imgNosotras/alexia.png",
+    "instagram": "https://www.instagram.com/alexiapdl/",
+    "facebook": "https://www.facebook.com/alexiapdl1",
+    "twitter": "https://twitter.com/Alexiapdl",
+    "informacion": "Lorem, ipsum dolor sit amet consectetur  elit.",
+    "masInformacion": "Rem corupti  in amet nihil dolorumsimilique molestias laboriosam nostrum."
+  },
+  {
+    "id": 2,
+    "nombre": "Lucia",
+    "apellido": "Ponce de Leon",
+    "cargo": "Cargo",
+    "profesion": "Profesion",
+    "imagen": "../img/imgNosotras/lucia.png",
+    "instagram": "https://www.instagram.com/luciapdl/",
+    "facebook": "https://www.facebook.com/lucia.poncedeleon.56",
+    "twitter": "",
+    "informacion": "Lorem, ipsum dolor sit amet consectetur  elit.",
+    "masInformacion": "Rem corupti  in amet nihil dolorumsimilique molestias laboriosam nostrum."
+  }
+]

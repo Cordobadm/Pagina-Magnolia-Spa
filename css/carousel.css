@@ -1,0 +1,7 @@
+.carousel-inner img {
+  width: 100%;
+  display: block;
+  max-height: 80vh;
+  object-fit: cover;
+  filter: grayscale(50%);
+}

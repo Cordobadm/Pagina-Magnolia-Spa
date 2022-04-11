@@ -1,0 +1,59 @@
+#productosInicio {
+  margin: 4rem;
+  text-align: center;
+  font: 50px;
+  color: black;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+#serviciosInicio {
+  margin: 4rem;
+  text-align: center;
+  font: 50px;
+  color: black;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+
+#cantidadCarrito {
+  margin-left: 0px;
+}
+
+#textMostrarCarrito {
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 50px;
+  color: black;
+}
+
+#textoId {
+  color: white;
+  text-align: center;
+  font-size: 3rem;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.form-group {
+  text-align: center;
+}
+
+.container-fluid-informacion {
+  margin-top: 7rem;
+  background-color: #807296;
+  
+}
+
+.card-informacion{
+  width: 320px;
+  margin-left: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  color: whitesmoke;
+}
+
+.card-informacion .col-md-3{
+ align-self: center;
+}
+
+#formasPago {
+  place-content: center;
+}

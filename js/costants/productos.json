@@ -1,0 +1,103 @@
+[
+  {
+    "id": 0,
+    "marca": "LACA",
+    "rubro": "MAKEUP",
+    "nombre": "BROCHA",
+    "precio": 1000,
+    "stock":2,
+    "img": "../img/productos/brocha.png"
+  },
+  {
+    "id": 1,
+    "marca": "MAC",
+    "rubro": "MAKEUP",
+    "nombre": "LABIAL",
+    "precio": 2111,
+    "stock":5,
+    "img": "../img/productos/labial.png"
+  },
+  {
+    "id": 2,
+    "marca": "GAMMA",
+    "rubro": "PEINADO",
+    "nombre": "SECADOR",
+    "precio": 4000,
+    "stock": 2,
+    "img": "../img/productos/secador.png"
+  },
+  {
+    "id": 3,
+    "marca": "FINE",
+    "rubro": "SALUD",
+    "nombre": "FINE STRONG",
+    "precio": 7500,
+    "stock":2,
+    "img": "../img/productos/proteina.png"
+  },
+  {
+    "id": 4,
+    "marca": "REMINGTON ",
+    "rubro": "PEINADO",
+    "nombre": "BUCLERA",
+    "precio": 2800,
+    "stock":2,
+    "img": "../img/productos/buclera.png"
+  },{
+    "id": 5,
+    "marca": "LIDHERMA ",
+    "rubro": "SALUD",
+    "nombre": "CELLACTIVE",
+    "precio": 2000,
+    "stock":2,
+    "img": "../img/productos/cellactive.png"
+  },{
+    "id": 6,
+    "marca": "MAYBELLINE ",
+    "rubro": "MAKEUP",
+    "nombre": "TAPA OJERAS",
+    "precio": 2500,
+    "stock":2,
+    "img": "../img/productos/tapaojeras.jpg"
+  },{
+    "id": 7,
+    "marca": "FINE",
+    "rubro": "SALUD",
+    "nombre": "FINE POWER",
+    "precio": 5500,
+    "stock":2,
+    "img": "../img/productos/power.png"
+  },{
+    "id": 8,
+    "marca": "LIDHERMA",
+    "rubro": "SALUD",
+    "nombre": "ANTI-AGE",
+    "precio": 1500,
+    "stock":2,
+    "img": "../img/productos/antiage.png"
+  },{
+    "id": 9,
+    "marca": "ROBY ",
+    "rubro": "PEINADO",
+    "nombre": "FIJADOR",
+    "precio": 3500,
+    "stock":2,
+    "img": "../img/productos/fijador.jpg"
+  },{
+    "id": 10,
+    "marca": "FINE ",
+    "rubro": "SALUD",
+    "nombre": "FINE SCULPT",
+    "precio": 5000,
+    "stock":2,
+    "img": "../img/productos/fine_sculpt.png"
+  },{
+    "id": 11,
+    "marca": "REMINGTON",
+    "rubro": "PEINADO",
+    "nombre": "PLANCHITA",
+    "precio": 5500,
+    "stock":2,
+    "img": "../img/productos/planchita.png"
+  }
+]

@@ -1,0 +1,37 @@
+
+/* .row{
+  justify-content: center;
+} */
+
+#cardServ {
+  text-align: center;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  border: 1px solid black;
+  border-radius: 7px;
+  margin: 1rem;
+}
+
+#cardServ:hover{
+  box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#cardServ h4{
+  font-size: 15px;
+  margin: 1px;
+}
+
+#cardServ h6{
+  font-size: 12px;
+  margin:1px;
+}
+
+#cardServ h3{
+ display: none;
+}
+
+#rowServ img {
+  margin-top: 1rem;
+  width: 20vh;
+}
+

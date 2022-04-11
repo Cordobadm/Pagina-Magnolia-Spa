@@ -1,0 +1,55 @@
+#offcanvas1{
+  width: 450px;
+}
+
+.offcanvas-header {
+  background-color: #807296;
+  font-family: 'Josefin Sans', sans-serif;
+  color: whitesmoke;
+}
+
+#mostrarCarrito h6 {
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.alert{
+  padding: 10px 10px;
+  border-radius: 1rem;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+#totalCarritoText {
+  background-color: whitesmoke;
+  text-align: center;
+  color: black;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 22px;
+}
+
+.-modal-productos-carrito img {
+  float: left;
+}
+
+.-modal-productos-carrito h6 {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+.-modal-productos-carrito span  {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.col-mas-menos{
+  text-align: center;
+}
+
+.col-mas-menos span{
+ margin-left: 1rem;
+ margin-right: 1rem;
+}
+
+.col-monto{
+  text-align: center;
+}
+

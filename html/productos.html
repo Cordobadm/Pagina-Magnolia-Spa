@@ -1,0 +1,157 @@
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Bootstrap CSS -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+    crossorigin="anonymous"
+  />
+  <!-- CSS -->
+
+  <link rel="stylesheet" href="../css/header.css" />
+  <link rel="stylesheet" href="../css/main.css" />
+  <link rel="stylesheet" href="../css/buttons.css">
+  <link rel="stylesheet" href="../css/modalCarrito.css" />
+  <link rel="stylesheet" href="../css/popUp.css" />
+  <link rel="stylesheet" href="../css/productosYserviciosFiltrados.css">
+  <link rel="stylesheet" href="../css/productos.css" />
+  <link rel="stylesheet" href="../css/footer.css" />
+
+  <!-- /CSS -->
+
+  <!-- Letras -->
+  <link rel="shortcut icon" href="../img/iconoMagnolia.png" type="icono magnolia" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inder&family=Playfair+Display:wght@600&family=Roboto:ital,wght@1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inder&family=Josefin+Sans:wght@100&family=Playfair+Display:wght@600&family=Roboto:ital,wght@1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap"
+      rel="stylesheet"
+    />
+  <!-- /Letras -->
+  <title>Magnolia Healthy Beauty</title>
+</head>
+
+<body>
+  <!--Header-->
+  <header id="header" class="fixed-top"></header>
+  <!--/Header-->
+
+  <!--Main-->
+  <main id="productos">
+    <div class="container">
+      <div class="row">
+        <div id="identificador" class=" me-0" style="margin-top:8rem;">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="/html/index.html">Inicio</a></li>
+              <li id="ultimo" class="breadcrumb-item active" aria-current="page">Productos</li>
+            </ol>
+          </nav>
+        </div>
+        <!-- POP UP -->
+      <div id="modalPopUp" class="modal1">
+        <div class="modal-content">
+          <p>Producto Agregado Correctamente</p>
+          
+        </div>
+
+      </div>
+      
+        <div id="-texto-filtrar">
+          <h4>Filtrar Productos</h4>
+          <hr>
+          <!-- <ul id="botones-filtrar"class="lista-footer col-2 col-md-12 mt-3">
+            <button class="btn btn-magnolia" id="btn-todos">Todos los Productos</button>
+            <button class="btn btn-magnolia" id="btn-makeUp">MakeUp</button>
+            <button class="btn btn-magnolia" id="btn-peinado">Peinado</button>
+            <button class="btn btn-magnolia" id="btn-salud">Salud</button>
+          </ul> -->
+
+          <select id="produtos">
+            <option value="all">Todos</option>
+            <option value="MAKEUP">MakeUp</option>
+            <option value="PEINADO">Peinado</option>
+            <option value="SALUD">Salud</option>
+          </select>
+
+          <select id="precio">
+            <option value="0">Filtrar por $</option>
+            <option value="1">Menor a Mayor</option>
+            <option value="2">Mayor a Menor</option>
+          </select>
+          
+        </div>
+        <div class="container">
+        
+          <main class="row" id="contendedor-productos"></main>
+    
+          <div id="my-offcanvas">
+            <!-- <div id="carritoNew"></div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <!--/main-->
+
+
+ <!--Footer-->
+ <footer id="footer-principal"></footer>
+ <!--/Footer-->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  
+  <script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+  crossorigin="anonymous"
+  ></script>
+  <!-- uuid -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js"></script>
+  <!-- SCRIPT JS -->
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.js"></script>
+  <script
+  src="https://code.jquery.com/ui/1.13.0/jquery-ui.min.js"
+  integrity="sha256-hlKLmzaRlE8SCJC1Kw8zoUbU8BxA+8kR3gseuKfMjxA="
+  crossorigin="anonymous"
+  ></script>
+
+  <script src="../js/components/header.js" ></script>
+  <script src="../js/components/class.js"></script>
+  <script src="../js/index.js" ></script>
+  <script src="../js/components/functionProducts.js" ></script>
+  <script src="../js/components/carrito.js" ></script>
+  <script src="../js/components/filtrarProductos.js"></script>
+  <script src="../js/components/footer.js" ></script>
+ 
+</body>
+
+</html>
+
+

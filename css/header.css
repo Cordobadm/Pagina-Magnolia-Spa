@@ -1,0 +1,41 @@
+/* Header */
+#header {
+  background-color: #807296;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+#header li {
+  padding: 0px;
+  list-style: none;
+}
+
+#navbarSupportedContent a{
+  color: whitesmoke;
+}
+
+#tamanio-letra {
+  font-size: 20px;
+}
+
+#redesHeader img{
+  width: 25px;
+  margin: 5px;
+}
+
+#shoppingCart img {
+  width: 50px;
+}
+
+#contador{
+  
+  margin-top: 0;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+  color: white;
+}
+
+#logoMagnolia img{
+  width: 28vh;
+}
+
+

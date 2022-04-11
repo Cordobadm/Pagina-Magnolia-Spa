@@ -1,0 +1,59 @@
+#identificador ol a {
+  text-decoration: none;
+  color: gray;
+  padding: 0px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+#ultimo {
+  color: black;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+
+
+#-texto-filtrar {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+
+.form-select{
+  width: 15%;
+  float: right;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 13px;
+}
+
+#produtos{
+  width: auto;
+  height: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#precio{
+  width: auto;
+  height: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  margin: 2rem;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#servicio{
+  width: auto;
+  height: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#precios{
+  width: auto;
+  height: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  margin: 2rem;
+  border-radius: 10px;
+  text-align: center;
+}
