@@ -20,7 +20,10 @@ function agregarServiciosAlHtml(arrayServ) {
               <h6 class="card-title">${e.nombre}</h6>
               <h4>Precio: $<span>${e.precio}</span></h4>
               <h3>stock: ${e.stock}</h3>
-              <button class="btn2 btn-magnolia" data-id="${id}" data-toggle="modal">Agregar</button>
+              <li id="turnos">
+                <a href="https://api.whatsapp.com/send/?phone=543813846221&text=¡Hola+Chicas%21&app_absent=0" target="_blank">
+                <img src="../img/iconos/iconoWhatsapp.png" alt="imagen whatsapp">Reservar Turno</a>
+              </li>
             </div>
           `;
   });
