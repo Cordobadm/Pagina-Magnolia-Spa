@@ -35,3 +35,22 @@
   width: 20vh;
 }
 
+
+#turnos img{
+  width: 32px;
+  padding: 3px;
+}
+
+#turnos a{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#turnos{
+  list-style: none;
+  font-size: 12px;
+}
