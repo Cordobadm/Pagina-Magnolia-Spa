@@ -52,17 +52,8 @@ $("#formasPago").append(`
 
 
 let carrito = JSON.parse(localStorage.getItem("carrito")) || [];
-// let acumuladorProd = document.getElementById("contador");
+
 let cantidaCarrito;
-
-// const sumarAcumulador = () => {
-//   const nacumulador = carrito.reduce((acc, { cantidad }) => acc + cantidad, 0);
-//   cantidaCarrito = nacumulador;
-//   acumuladorProd.innerHTML = cantidaCarrito;
-
-//   localStorage.setItem("acumulador", JSON.stringify(nacumulador));
-// };
-
 
 //-------------Pop UP-------------------
 const modal = document.getElementById("modalPopUp");

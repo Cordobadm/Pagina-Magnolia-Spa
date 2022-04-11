@@ -34,16 +34,16 @@ const obtenerPersonas = () => {
             <a
               href="${card.instagram}"
               target="_blank"
-              ><img src="../img/imgRedes/iconoig.png" alt="instagram"
+              ><img src="../img/iconos/iconoig.png" alt="instagram"
             /></a>
             <a
               href="${card.facebook}"
               target="_blank"
             >
-              <img src="../img/imgRedes/iconoFace.png" alt="facebook"
+              <img src="../img/iconos/iconoFace.png" alt="facebook"
             /></a>
             <a href="${card.twitter}" target="_blank">
-              <img src="../img/imgRedes/iconoTwitter.png" alt="twitter"
+              <img src="../img/iconos/iconoTwitter.png" alt="twitter"
             /></a>
           </div>
           
